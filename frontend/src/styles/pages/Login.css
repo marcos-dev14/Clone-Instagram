@@ -1,0 +1,173 @@
+.login {
+  max-width: 992px;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-left {
+  margin-right: 20px;
+}
+
+section {
+  margin-bottom: 10%;
+}
+
+.login-right {
+  width: 350px;
+  height: 380px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  margin: 0 0 10px;
+  padding: 10px 0;
+}
+
+.login-right h1 {
+  margin-bottom: 20px;
+}
+
+.login-right h1 img {
+  width: 175px;
+  height: 51px;
+
+}
+
+.login-loginInputEmail {
+  width: 80%;
+  height: 50px;
+  color: #262626;
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 3px;
+
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 12px;
+}
+
+.login-loginInputEmail svg {
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.login-loginInputEmail input {
+  width: 100%;
+  background: transparent;
+  outline-width: 0;
+  color: #262626;
+  border: 0;
+  font-size: 13px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.login-loginInputPassword {
+  width: 80%;
+  height: 50px;
+  color: #262626;
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 3px;
+
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 12px;
+}
+
+.login-loginInputPassword svg {
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.login-loginInputPassword input {
+  background: transparent;
+  width: 100%;
+  outline-width: 0;
+  color: #262626;
+  border: 0;
+  font-size: 13px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.login-right button {
+  width: 80%;
+  height: 36px;
+
+  cursor: pointer;
+  background: #5bb1eb;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 13px;
+  margin-top: 5px;
+  border: 0;
+  outline: 0;
+}
+
+.login-right button:hover {
+  background: #35a1e9;
+  opacity: 1;
+}
+
+section .register {
+  width: 350px;
+  height: 63px;
+
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section .register p {
+  font-size: 14px;
+  color: #262626;
+  margin: 5px;
+  text-align: center;
+}
+
+section .register span {
+  font-size: 14px;
+  color: #0491f0;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media (max-width: 997px) {
+  .login-left img {
+    display: none;
+  }
+
+  .login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+}
